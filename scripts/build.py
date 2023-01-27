@@ -256,8 +256,8 @@ class Builder:
             ('token', token),
             ('tag', self.version),
         )
-        r = requests.post(url, params=params, data=data)
-        r.raise_for_status()
+        # r = requests.post(url, params=params, data=data)
+        # r.raise_for_status()
 
 
 class MSVCBuilder(Builder):
